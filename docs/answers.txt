@@ -44,3 +44,8 @@ i)
        methods are used.
    III) Encapsulation simply refers to containing both data and methods in one distinct 
         form (i.e. a class).
+
+7) I believe this design is using both polymorphism and encapsulation. The project
+   uses polymorphism in each of the child classes of Weapon in that they all overload
+   the same virtual hit method. It displays encapsulation in that the Weapon class has
+   both methods and data in a protected form.
