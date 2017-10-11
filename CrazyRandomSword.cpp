@@ -13,7 +13,7 @@
 	 int halfArmor = armor/2 + 1;
 	 halfArmor = rand() % halfArmor;
 	 
-	 damage = hitpoints - (armor - halfArmor);
+	 damage = hitPoints - (armor - halfArmor);
 	 
 	 return damage;
  }
