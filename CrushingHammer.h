@@ -6,6 +6,7 @@
  */
 
 #include <string>
+#include <cstdlib>
 #include "Weapon.h"
 
 #ifndef CRUSHINGHAMMER_H
