@@ -1,5 +1,5 @@
 /* 
- * File:   SimpleAxe.h
+ * File: SimpleAxe.cpp
  * Author: Mark Walker <mtw14@my.fsu.edu>
  *
  * Created on October 11, 2017, 2:20 PM
