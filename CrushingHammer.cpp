@@ -9,6 +9,7 @@
  
  double CrushingHammer::hit(double armor)
  {
+	 srand(time(NULL));
 	 double damage;
 	 
 	 //20% chance to ignore all armor
@@ -21,4 +22,6 @@
 		
 	else
 		damage = hitPoints - armor;
+	
+	return damage;
  }

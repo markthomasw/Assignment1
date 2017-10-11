@@ -7,6 +7,7 @@
 
 #include <string>
 #include <cstdlib>
+#include <time.h>
 #include "Weapon.h"
 
 #ifndef CRUSHINGHAMMER_H
