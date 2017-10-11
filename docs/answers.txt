@@ -1,0 +1,46 @@
+a) mwalker@MAJORS5 MINGW32 ~/GIT_Assignment (master)
+$ git push origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': markthomasw
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 881 bytes | 881.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/markthomasw/Assignment1.git
+   fbdbe93..e43d26d  master -> master
+
+b) 9 total commits.
+I used the command "git rev-list --all --count" to find this.
+
+c) Wed Sep 27 16:31:42 2017 -0500
+I used the command "git log -1 --format="%ad" -- .gitignore" to find this.
+
+d) Found 2 commits:
+commit cb30d72a3d94c108f393c163a35c1cc9bf18ffca
+commit 36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+
+e) 
+   1) It allows you to keep one stable branch while continuing development
+      in another branch without breaking the working branch.
+   2) It allows you to try changes that may or may not ever be merged into
+      the main code branch.
+
+f) The difference is that git status shows the changes between the local clone
+and the working branch on Github whereas git log lists all commits made to the 
+branch.
+
+g) git log --follow Weapon.h
+
+h) git log --grep="file"
+
+i)
+   I) Inheritance is used when there is an "is a" relationship meaning that a
+      child class is a type of the parent class and therefor has all of the
+      same attributes as the parent as well as some uniqu attributes of the child.
+   II) Polymorphism is when you can treat an object as a generic version of something,
+       yet when the class is accessed the data determines what versions of the generic
+       methods are used.
+   III) Encapsulation simply refers to containing both data and methods in one distinct 
+        form (i.e. a class).
